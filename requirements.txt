@@ -1,0 +1,6 @@
+telethon
+requests
+feedparser
+beautifulsoup4
+yt-dlp
+quickjs

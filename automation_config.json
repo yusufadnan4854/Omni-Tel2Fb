@@ -1,0 +1,50 @@
+{
+    "credentials": {
+        "tg_api_id": "",
+        "tg_api_hash": "",
+        "tg_session": "",
+        "fb_token": "",
+        "web_auth_token": ""
+    },
+    "rules": [
+        {
+            "source": "\ud83d\udce2 Telegram",
+            "source_id": "warnewsbysakib",
+            "destination": "\ud83d\udc65 Facebook",
+            "dest_id": "1169219789611878",
+            "txt": true,
+            "img": true,
+            "vid": true,
+            "title_only": false,
+            "keep_hashtags": false,
+            "min_words": 1,
+            "lookback_hours": 24.0
+        },
+        {
+            "source": "\ud83d\udce2 Telegram",
+            "source_id": "https://t.me/antiquotadu, https://t.me/basherkella",
+            "destination": "\ud83d\udc65 Facebook",
+            "dest_id": "1125991670605641",
+            "txt": true,
+            "img": true,
+            "vid": true,
+            "title_only": false,
+            "keep_hashtags": false,
+            "min_words": 1,
+            "lookback_hours": 24.0
+        },
+        {
+            "source": "\ud83d\udce2 Telegram",
+            "source_id": "https://t.me/basherkella1, https://t.me/BadrulBSL",
+            "destination": "\ud83d\udc65 Facebook",
+            "dest_id": "1139367902602755",
+            "txt": true,
+            "img": true,
+            "vid": true,
+            "title_only": false,
+            "keep_hashtags": false,
+            "min_words": 1,
+            "lookback_hours": 24.0
+        }
+    ]
+}
